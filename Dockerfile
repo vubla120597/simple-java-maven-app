@@ -3,7 +3,7 @@ LABEL authors="sony"
 
 WORKDIR /app
 
-COPY target/my-app-0.0.1-SNAPSHOT.jar /app/my-app.jar
+COPY target/my-app-1.0-SNAPSHOT.jar /app/my-app.jar
 
 ENV JAVA_OPTS=""
 
